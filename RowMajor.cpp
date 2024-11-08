@@ -12,7 +12,7 @@ int main()
     for (int i = 1; i <= n; i++)
     {
         int mul = I[i];
-        for (int j = i + 1; j < n; j++)
+        for (int j = i + 1; j <= n; j++)
         {
             mul *= S[j];
         }
