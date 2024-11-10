@@ -71,6 +71,7 @@ struct Stack
     {
         if (top == nullptr)
         {
+            cout<<"Stack underflow"<<endl ;
             return -1;
         }
         int result = top->data;
@@ -88,10 +89,11 @@ main()
     s->push(3);
     s->push(4);
 
-    cout << s->pop();
-    cout << s->pop();
-    cout << s->pop();
-    cout << s->pop();
+    cout << s->pop()<<endl;
+    cout << s->pop()<<endl;
+    cout << s->pop()<<endl;
+    cout << s->pop()<<endl;
+    cout << s->pop()<<endl;
 
     return 0;
 }
