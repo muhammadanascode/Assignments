@@ -19,6 +19,8 @@ int main()
         sum += mul;
     }
 
+    cout<<"Row measure: "<<endl ;
+
     cout << "Sum: " << sum << endl;
     return 0;
 }
