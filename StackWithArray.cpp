@@ -23,7 +23,7 @@ struct Stack
     {
         if (top < 0)
         {
-            cout << "Stack underflow";
+            cout << "Stack underflow"<<endl;
             return -1;
         }
         return arr[top--];
@@ -41,10 +41,11 @@ main()
     s.push(3);
     s.push(4);
 
-    cout << s.pop();
-    cout << s.pop();
-    cout << s.pop();
-    cout << s.pop();
+    cout << s.pop()<<endl;
+    cout << s.pop()<<endl;
+    cout << s.pop()<<endl;
+    cout << s.pop()<<endl;
+    cout << s.pop()<<endl;
     return 0;
 } 
 
