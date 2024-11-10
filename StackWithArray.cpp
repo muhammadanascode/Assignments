@@ -35,6 +35,7 @@ int
 main()
 {
     Stack s;
+    cout<<"Stack using Array:"<<endl ;
     s.push(1);
     s.push(2);
     s.push(3);

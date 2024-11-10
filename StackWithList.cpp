@@ -36,6 +36,7 @@ struct Stack
 int
 main()
 {
+    cout<<"Stack using List:"<<endl ;
     Stack *s  =new Stack ;
     s->push(1);
     s->push(2);
